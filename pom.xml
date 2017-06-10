@@ -98,7 +98,7 @@
 					</operatingSystems>
 
 					<getSpecificExecutableVersions>
-						<googlechrome>18</googlechrome>
+						<googlechrome>59</googlechrome>
 					</getSpecificExecutableVersions>
 
 				</configuration>
