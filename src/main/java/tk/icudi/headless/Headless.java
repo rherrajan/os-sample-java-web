@@ -32,10 +32,10 @@ public class Headless {
 		
 		//System.setProperty("wdm.targetPath", "$OPENSHIFT_DATA_DIR/webdriver");
 		
-		System.setProperty("wdm.targetPath", "/tmp");
-		PhantomJsDriverManager.getInstance().setup();
+		System.setProperty("wdm.targetPath", "/tmp/webdriver");
+		ChromeDriverManager.getInstance().setup();
 		
-		this.webdriver = new PhantomJSDriver();
+		this.webdriver = new ChromeDriver();
 	}
 
 	public void login(String username, String password) {
