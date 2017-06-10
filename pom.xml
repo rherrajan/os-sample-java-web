@@ -93,6 +93,14 @@
 					<rootStandaloneServerDirectory>/tmp/webdriver/binaries</rootStandaloneServerDirectory>
 					<!-- Where you want to store downloaded zip files -->
 					<downloadedZipFileDirectory>/tmp/webdriver/zips</downloadedZipFileDirectory>
+					<operatingSystems>
+						<linux>true</linux>
+					</operatingSystems>
+
+					<getSpecificExecutableVersions>
+						<googlechrome>18</googlechrome>
+					</getSpecificExecutableVersions>
+
 				</configuration>
 				<executions>
 					<execution>
