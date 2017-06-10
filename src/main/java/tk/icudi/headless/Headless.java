@@ -6,10 +6,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.github.bonigarcia.wdm.ChromeDriverManager;
+import io.github.bonigarcia.wdm.FirefoxDriverManager;
 
 public class Headless {
 
@@ -29,9 +31,9 @@ public class Headless {
 		//System.setProperty("wdm.targetPath", "$OPENSHIFT_DATA_DIR/webdriver");
 		
 		System.setProperty("wdm.targetPath", "/tmp");
-		ChromeDriverManager.getInstance().setup();
+		FirefoxDriverManager.getInstance().setup();
 		
-		this.webdriver = new ChromeDriver();
+		this.webdriver = new FirefoxDriver();
 	}
 
 	public void login(String username, String password) {
