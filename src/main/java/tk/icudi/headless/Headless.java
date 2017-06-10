@@ -26,8 +26,9 @@ public class Headless {
 	
 	private Headless() {
 		
-		System.setProperty("wdm.targetPath", "$OPENSHIFT_DATA_DIR/webdriver");
+		//System.setProperty("wdm.targetPath", "$OPENSHIFT_DATA_DIR/webdriver");
 		
+		System.setProperty("wdm.targetPath", "/tmp");
 		ChromeDriverManager.getInstance().setup();
 		
 		this.webdriver = new ChromeDriver();
