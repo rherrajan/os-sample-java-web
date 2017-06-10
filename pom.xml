@@ -90,9 +90,9 @@
 				<version>1.0.14</version>
 				<configuration>
 					<!-- root directory that downloaded driver binaries will be stored in -->
-					<rootStandaloneServerDirectory>/tmp/webdriver/binaries</rootStandaloneServerDirectory>
+					<rootStandaloneServerDirectory>/tmp/webdriverbin/binaries</rootStandaloneServerDirectory>
 					<!-- Where you want to store downloaded zip files -->
-					<downloadedZipFileDirectory>/tmp/webdriver/zips</downloadedZipFileDirectory>
+					<downloadedZipFileDirectory>/tmp/webdriverbin/zips</downloadedZipFileDirectory>
 					<operatingSystems>
 						<linux>true</linux>
 					</operatingSystems>
