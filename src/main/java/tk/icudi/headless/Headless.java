@@ -35,6 +35,8 @@ public class Headless {
 //		System.setProperty("wdm.targetPath", "/tmp/webdriverdriv");
 //		ChromeDriverManager.getInstance().setup();
 		
+		System.setProperty("webdriver.chrome.driver", "/tmp/webdriverbin/binaries/linux/googlechrome/64bit/chromedriver");
+
 		this.webdriver = new ChromeDriver();
 	}
 
